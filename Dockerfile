@@ -1,5 +1,4 @@
-ARG JUPYTERHUB_VERSION=0.9.2
-FROM jupyterhub/jupyterhub:${JUPYTERHUB_VERSION}
+FROM mohitsharma44/ucslhub:1.0
 
 LABEL maintainer="Mohit Sharma <Mohitsharma44@gmail.com>"
 
