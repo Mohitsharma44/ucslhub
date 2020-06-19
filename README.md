@@ -95,7 +95,7 @@ file which should be pretty self-explanatory but incase you need some help, feel
 
 This project has been built using several tools made by and contributed to the opensource community. Some of them used are:
 - [Nginx Proxy](https://github.com/jwilder/nginx-proxy) container by @jwilder.
-- SwarmSpawner using dockerspawner (https://github.com/jupyterhub/dockerspawner) module by @Jupyterhub.
+- SwarmSpawner using [dockerspawner](https://github.com/jupyterhub/dockerspawner) module by @Jupyterhub.
 - [Keycloak](https://hub.docker.com/r/jboss/keycloak/) container by @Jboss.
 - [MariaDB](https://hub.docker.com/_/mariadb) container by the MariaDB community.
 
