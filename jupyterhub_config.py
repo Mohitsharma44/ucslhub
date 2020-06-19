@@ -98,12 +98,13 @@ c.JupyterHub.template_paths = ['/tmp/dockerspawner/templates']
 c.JupyterHub.hub_ip = '0.0.0.0'
 # this is the name of the 'service' in docker-compose.yml
 c.JupyterHub.hub_connect_ip = 'hub'
+c.JupyterHub.upgrade_db = True
 # this is the network name for jupyterhub in docker-compose.yml
 c.SwarmSpawner.network_name = 'ucslhub_jupynet'
 c.SwarmSpawner.use_internal_ip = True
 #c.SwarmSpawner.extra_host_config = {'network_mode': 'jupyterhub_jupynet'}
 #c.SwarmSpawner.remove_services = True
-c.Spawner.mem_limit = '512M'
+c.Spawner.mem_limit = '1G'
 c.Spawner.cpu_limit = 1
 
 # start jupyterlab
